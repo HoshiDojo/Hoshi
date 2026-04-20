@@ -38,7 +38,8 @@ mutable struct MemoryArena
     morton_codes::Vector{UInt64}
     
     # Graph Coloring for deterministic lock-free physics execution
-    colors::Vector{UInt32}
+    # UInt8 gives us 255 possible colors at just 1 byte per entity.
+    colors::Vector{UInt8} 
 end
 
 """

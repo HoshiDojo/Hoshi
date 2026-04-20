@@ -41,8 +41,6 @@ struct Multivector16
     m16::Int64 
 end
 
-const FIXED_SCALE = 100_000_000
-
 """
 *(A::Multivector16, B::Multivector16)
 

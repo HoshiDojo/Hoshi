@@ -7,17 +7,3 @@ http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 =#
-module Hoshi
-
-const FIXED_SCALE = 100_000_000
-include("Multivector16.jl")
-include("MemoryArena.jl")
-include("CollisionColors.jl")
-include("CollisionsKernel.jl")
-include("SVDAG.jl")
-include("MortonCode.jl")
-include("BarnesHut.jl")
-include("GeometricAlgebra.jl")
-include("EventLoop.jl")
-
-end # module

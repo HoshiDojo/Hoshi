@@ -1,0 +1,14 @@
+name = "Hoshi"
+uuid = "f1c2b5d4-8a9b-4c3d-9e2f-1a2b3c4d5e6f"
+authors = ["The Hoshi Authors"]
+version = "0.3.0"
+
+[deps]
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+Vulkan = "3d5ee1ba-e889-4d6d-8cf7-14283fc3db09"
+
+[compat]
+# Strict compatibility bounds to prevent execution drift across network peers
+julia = "1.10"
+KernelAbstractions = "0.9"
+Vulkan = "0.7"
