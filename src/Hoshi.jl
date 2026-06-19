@@ -10,6 +10,8 @@ Unless required by applicable law or agreed to in writing, software distributed 
 module Hoshi
 
 const FIXED_SCALE = 100_000_000
+include("GICG.jl")
+include("TestGICG.jl")
 include("Multivector16.jl")
 include("MemoryArena.jl")
 include("CollisionColors.jl")
